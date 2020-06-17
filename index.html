@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Miniport by HTML5 UP</title>
@@ -138,14 +133,24 @@
 
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
-				<div class="container medium">
+				<div class="container medium" id='contacted' style="display: none;">
 					<header>
+						<h2>
+							Thank you!
+						</h2>	
+						<p>
+							I will contact you as soon as i can!
+						</p>
+					</header>
+				</div>
+				<div class="container medium">
+					<header id='contactText'>
 						<h2>Have me make stuff for you.</h2>
 						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
 					</header>
 					<div class="row">
-						<div class="col-12">
-							<form method="post" action="#">
+						<div class="col-12" id ='contactScreen'>
+							<form method="post" onsubmit = showThanks()>
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -209,6 +214,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/cookie.js"></script>
 
 	</body>
 </html>
