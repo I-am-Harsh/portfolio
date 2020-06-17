@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Miniport by HTML5 UP</title>
+		<title>Harsh Verma - Website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css"/>
 	</head>
 	<body class="is-preload">
 
@@ -13,7 +13,7 @@
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
 					<li><a href="#work">Work</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
+					<!-- <li><a href="#portfolio">Portfolio</a></li> -->
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -23,7 +23,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/IMG_8284.jpg" alt="Harsh" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
@@ -52,35 +52,41 @@
 					<div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon featured fa fa-code"></span>
-								<h3>Consequat lorem</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								<span class="icon solid featured fa-database"></span>
+								<h3>MongoDB</h3>
+								<p>
+									MongoDB is my preferred choice of the DB and using the mongoose driver for NodeJS.
+								</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Lorem dolor tempus</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								<span class="icon brands featured fa-react"></span>
+								<h3>React</h3>
+								<p>
+									I build front end using the React Framework/library from Facebook rather than HTML.
+								</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Feugiat posuere</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								<span class="icon brands featured fa-node-js"></span>
+								<h3>NodeJs + Express</h3>
+								<p>
+									I set up my RESTful API's using the Express framework and the NodeJS server enivronment.
+								</p>
 							</section>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+						<p>Not convinced yet?</p>
+						<a href="https://www.github.com/i-am-harsh" target="_blank" class="button large scrolly">See some of my work on Github here</a>
 					</footer>
 				</div>
 			</article>
 
 		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
+			<article id="portfolio" class="wrapper style3" style="display:none">
 				<div class="container">
 					<header>
 						<h2>Here’s some stuff I made recently.</h2>
@@ -147,28 +153,37 @@
 						<p>
 							I will contact you as soon as i can!
 						</p>
+						<br/>
+						<p>
+							<i>
+								<i>
+									GitHub.io is a public domain, thus I cant deploy cookies to stop you from filling this form again.
+								</i>
+							</i>
+						</p>
+						
 					</header>
 				</div>
 				<div class="container medium">
 					<header id='contactText'>
 						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<p>Fill out the details for you and I will contact you.</p>
 					</header>
 					<div class="row">
 						<div class="col-12" id ='contactScreen'>
 							<form method="post" onsubmit = showThanks()>
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="Name" required/>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" id="email" placeholder="Email" required/>
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
+										<input type="text" name="subject" id="subject" placeholder="Subject" required/>
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="message" id="message" placeholder="Message" required></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
@@ -183,31 +198,15 @@
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
+								<li><a href="http://github.com/i-am-harsh" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							</ul>
 							<hr />
 						</div>
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>Harsh Verma</li>
 						</ul>
 					</footer>
 				</div>
@@ -221,6 +220,5 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/cookie.js"></script>
-
 	</body>
 </html>
